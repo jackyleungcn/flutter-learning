@@ -1,16 +1,22 @@
-# flutter_demo
+## 学习flutter
 
-A new Flutter project.
+#### Docs
+中文：[https://flutterchina.club/get-started/codelab/](https://flutterchina.club/get-started/codelab/)
 
-## Getting Started
+英文：[https://flutter.dev/docs](https://flutter.dev/docs)（部分中文不好使，英文文档保持官方最新）
 
-This project is a starting point for a Flutter application.
+Flutter实战：[https://book.flutterchina.club/](https://book.flutterchina.club/)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
+#### Dart
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+中文：[http://dart.goodev.org/](http://dart.goodev.org/)
+
+英文：[https://dart.dev/](https://dart.dev/)
+
+#### 实战推荐
+1. Flutter的原理及美团的实践
+   * [上](https://zhuanlan.zhihu.com/p/41731412)
+   * [中](https://zhuanlan.zhihu.com/p/41731950)
+   * [下](https://zhuanlan.zhihu.com/p/41732803)
+1. [Flutter学习指南](https://zhuanlan.zhihu.com/flutter)（知乎专栏）
