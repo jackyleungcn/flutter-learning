@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './TapboxA.dart';
+import './ParentWidget.dart';
 
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
@@ -16,7 +16,7 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: new AppBar(
         title: new Text(widget.title),
       ),
-      body: TapboxA(),
+      body: ParentWidget(),
     );
   }
 }
