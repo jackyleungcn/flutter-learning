@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './button/ButtonHomePage.dart';
+import './image/ImageHomePage.dart';
 
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
@@ -16,9 +16,9 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: new AppBar(
         title: new Text(widget.title),
       ),
-      body: new Column(
+      body: ListView(
         children: <Widget>[
-          ButtonHomePage(),
+          ImageHomePage(),
         ],
       ),
     );
