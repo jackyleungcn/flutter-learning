@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import './RowAndColumn.dart';
+import './FlexA.dart';
 
 class LayoutHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
@@ -7,7 +8,8 @@ class LayoutHomePage extends StatelessWidget {
       padding: EdgeInsets.all(20),
       child: Column(
         children: <Widget>[
-          RowAndColumn(),
+          // RowAndColumn(),
+          FlexA(),
         ],
       ),
     );
