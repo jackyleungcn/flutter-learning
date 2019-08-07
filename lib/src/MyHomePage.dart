@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './progressIndicator/ProgressIndicatorHomePage.dart';
+import './layout/LayoutHomePage.dart';
 
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
@@ -18,7 +18,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: ListView(
         children: <Widget>[
-          ProgressIndicatorHomePage(),
+          LayoutHomePage(),
         ],
       ),
     );
