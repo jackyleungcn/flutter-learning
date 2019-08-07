@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import './RowAndColumn.dart';
 import './FlexA.dart';
+import './WrapAndFlow.dart';
 
 class LayoutHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
@@ -9,7 +10,8 @@ class LayoutHomePage extends StatelessWidget {
       child: Column(
         children: <Widget>[
           // RowAndColumn(),
-          FlexA(),
+          // FlexA(),
+          WrapAndFlow(),
         ],
       ),
     );
