@@ -16,11 +16,12 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: new AppBar(
         title: new Text(widget.title),
       ),
-      body: ListView(
-        children: <Widget>[
-          LayoutHomePage(),
-        ],
-      ),
+      // body: ListView(
+      //   children: <Widget>[
+      //     LayoutHomePage(),
+      //   ],
+      // ),
+      body: LayoutHomePage(),
     );
   }
 }
