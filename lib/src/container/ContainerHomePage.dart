@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import './PaddingA.dart';
 import './ConstrainedBoxesA.dart';
+import './DecoratedBoxA.dart';
 
 class ContainerHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
@@ -9,7 +10,8 @@ class ContainerHomePage extends StatelessWidget {
       child: Column(
         children: <Widget>[
           // PaddingA(),
-          ConstrainedBoxesA(),
+          // ConstrainedBoxesA(),
+          DecoratedBoxA(),
         ],
       ),
     );
