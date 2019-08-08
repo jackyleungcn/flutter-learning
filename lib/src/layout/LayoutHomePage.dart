@@ -3,19 +3,21 @@ import './RowAndColumn.dart';
 import './FlexA.dart';
 import './WrapAndFlow.dart';
 import './StackAndPositioned.dart';
+import './AlignA.dart';
 
 class LayoutHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
-    // return Padding(
-    //   padding: EdgeInsets.all(20),
-    //   child: Column(
-    //     children: <Widget>[
-    //       // RowAndColumn(),
-    //       // FlexA(),
-    //       // WrapAndFlow(),
-    //     ],
-    //   ),
-    // );
-    return StackAndPositioned();
+    return Padding(
+      padding: EdgeInsets.all(20),
+      child: Column(
+        children: <Widget>[
+          // RowAndColumn(),
+          // FlexA(),
+          // WrapAndFlow(),
+          AlignA(),
+        ],
+      ),
+    );
+    // return StackAndPositioned();
   }
 }
