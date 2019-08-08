@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import './PaddingA.dart';
+import './ConstrainedBoxesA.dart';
 
 class ContainerHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
@@ -7,7 +8,8 @@ class ContainerHomePage extends StatelessWidget {
       padding: EdgeInsets.all(20),
       child: Column(
         children: <Widget>[
-          PaddingA(),
+          // PaddingA(),
+          ConstrainedBoxesA(),
         ],
       ),
     );
