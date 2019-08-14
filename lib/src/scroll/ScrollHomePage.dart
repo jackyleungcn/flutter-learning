@@ -6,6 +6,8 @@ import './GridViewA.dart';
 import './InfiniteGridView.dart';
 import './StaggeredGridViewA.dart';
 import './CustomScrollViewA.dart';
+import './ScrollControllerA.dart';
+import './ScrollNotificationA.dart';
 
 class ScrollHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
@@ -16,7 +18,9 @@ class ScrollHomePage extends StatelessWidget {
       // child: GridViewA(),
       // child: InfiniteGridView(),
       // child: StaggeredGridViewA(),
-      child: CustomScrollViewA(),
+      // child: CustomScrollViewA(),
+      // child: ScrollControllerA(),
+      child: ScrollNotificationA(),
     );
   }
 }

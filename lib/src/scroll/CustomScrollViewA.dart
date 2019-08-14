@@ -43,7 +43,7 @@ class CustomScrollViewA extends StatelessWidget {
               new SliverChildBuilderDelegate((BuildContext context, int index) {
             return new Container(
               alignment: Alignment.center,
-              color: Colors.lightBlue[100 * (index % 9)],
+              color: Colors.red[100 * (index % 9)],
               child: new Text('list item $index'),
             );
           }, childCount: 50),
