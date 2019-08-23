@@ -4,12 +4,20 @@ import './InheritedWidgetB.dart';
 import './ProviderA.dart';
 import './FutureBuilderA.dart';
 import './StreamBuilderA.dart';
+import './AlertDialogA.dart';
+import './ShowDialogA.dart';
+import './SimpleDialogA.dart';
+import './ShowListDialog.dart';
 
 class FunctionalHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
-    return Padding(
-      padding: EdgeInsets.all(0),
-      child: StreamBuilderA(),
-    );
+    return Center(
+        child: Column(
+          children: <Widget>[
+            ShowDialogA(),
+            SimpleDialogA(),
+            ShowListDialog(),
+          ],
+        ));
   }
 }
